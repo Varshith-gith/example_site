@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <title>Airbnb</title>
+</head>
+
+<body class="bg-gray-50">
+
+  <!-- Header -->
+  <header class="sticky top-0 z-50 w-full bg-gradient-to-t from-gray-100 to-white shadow">
+    <div class="max-w-7xl mx-auto flex items-center justify-between px-4 py-3">
+      
+      <!-- Logo + Brand -->
+      <div class="flex items-center gap-2">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8fYsTmR0-TXLa06mx13LRXBgbNyBgylU3cw&s"
+          alt="Airbnb Logo"
+          class="w-8 h-8 object-contain"
+        />
+        <h3 class="text-2xl font-bold text-red-400">airbnb</h3>
+      </div>
+
+      <!-- Navigation -->
+      <nav class="hidden md:flex gap-6 text-sm font-medium">
+        <a href="#" class="hover:border-b-2 hover:border-b-red-500">Home</a>
+        <a href="#" class="hover:border-b-2 hover:border-b-red-500">Experiences</a>
+        <a href="#" class="hover:border-b-2 hover:border-b-red-500">Services</a>
+      </nav>
+
+      <!-- Right section -->
+      <div class="flex items-center gap-4">
+        <h3 class="hidden lg:block text-sm font-semibold">Become a Host</h3>
+        
+        <!-- Globe -->
+        <div class="flex items-center justify-center w-8 h-8 rounded-full border border-gray-300 hover:bg-gray-100 cursor-pointer">
+          <img src="https://cdn-icons-png.flaticon.com/128/3917/3917538.png" alt="globe" class="w-4 h-4"/>
+        </div>
+
+        <!-- User -->
+        <div class="flex items-center justify-center w-8 h-8 rounded-full border border-gray-300 hover:bg-gray-100 cursor-pointer">
+          <img src="https://cdn-icons-png.flaticon.com/128/3917/3917215.png" alt="user" class="w-4 h-4"/>
+        </div>
+      </div>
+    </div>
+
+    <!-- Search Bar -->
+    <div class="w-full flex justify-center px-4 pb-4">
+      <div class="flex items-center justify-between w-full max-w-2xl bg-white border border-gray-300 rounded-full shadow-md px-5 py-3">
+        
+        <!-- Where -->
+        <div class="flex flex-col text-left cursor-pointer">
+          <span class="text-xs font-semibold">Where</span>
+          <span class="text-sm text-gray-500">Search destinations</span>
+        </div>
+
+        <span class="h-6 w-px bg-gray-300"></span>
+
+        <!-- Date -->
+        <div class="flex flex-col text-left cursor-pointer">
+          <span class="text-xs font-semibold">Date</span>
+          <span class="text-sm text-gray-500">Add dates</span>
+        </div>
+
+        <span class="h-6 w-px bg-gray-300"></span>
+
+        <!-- Type of service -->
+        <div class="flex flex-col text-left cursor-pointer">
+          <span class="text-xs font-semibold">Type of service</span>
+          <span class="text-sm text-gray-500">Add service</span>
+        </div>
+
+        <!-- Search button -->
+        <button class="ml-3 flex items-center justify-center w-10 h-10 rounded-full bg-red-600 hover:bg-red-700 text-white">
+          <svg xmlns="http://www.w3.org/2000/svg" 
+               fill="none" 
+               viewBox="0 0 24 24" 
+               stroke="currentColor" 
+               class="w-5 h-5">
+            <path stroke-linecap="round" 
+                  stroke-linejoin="round" 
+                  stroke-width="2" 
+                  d="M21 21l-4.35-4.35M11 19a8 8 0 100-16 8 8 0 000 16z" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+</body>
+</html>
+
